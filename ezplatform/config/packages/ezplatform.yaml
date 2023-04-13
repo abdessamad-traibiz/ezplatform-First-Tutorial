@@ -83,19 +83,9 @@ ezplatform:
 
         site:
             languages: [eng-GB]
-            # My ez Configurations
-            content_view:
-                full:
-                    home_page:
-                        template: full/home_page.html.twig
-                        match:
-                            Id\Location: 2
-                    ride:
-                        template: full/ride.html.twig
-                        match:
-                            Identifier\ContentType: ride
+            # ----------My ez Configurations------------- #
 
-
+            # ------------My ez Configurations--------------- #
     url_alias:
         slug_converter:
             transformation: 'urlalias_lowercase'
